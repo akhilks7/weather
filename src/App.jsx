@@ -28,7 +28,7 @@ function App() {
   return (
     <>
     
-      <div style={{ backgroundImage: "url('https://images.wallpaperscraft.com/image/single/clouds_sunset_sky_188020_3648x5472.jpg')", backgroundSize: 'cover', height: '100vh' }}>
+      <div style={{ backgroundImage: "url('https://images.wallpaperscraft.com/image/single/clouds_sunset_sky_188020_3648x5472.jpg')", backgroundSize: 'cover', height: '120vh' }}>
         <div>
 
           <div className='d-flex justify-content-center gap-4 p-5 '>
