@@ -32,16 +32,16 @@ function App() {
         <div>
 
           <div className='d-flex justify-content-center gap-4 p-5 '>
-
+            
             <TextField label="city name" variant='outlined' className='bg-white rounded shadow-lg' value={city} onChange={(e) => setCity(e.target.value)} />
             <button onClick={datasearch} className='btn text-light' style={{background: 'linear-gradient(to right, #7c6b8f, #7c6b8f)'}}>search</button>
 
           </div>
         </div>
 
-        {searched && weather &&  weather.cod === 200 &&  <div className='container-fluid d-flex align-items-center justify-content-center' >
+        {searched && weather &&  weather.cod === 200 &&  <div className='container-fluid d-flex align-content-center justify-content-center' >
 
-          <div className='container p-3 w-50' style={{ background: 'transparent', borderRadius: '45px', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
+          <div className='container p-3 ' style={{ background: 'transparent', borderRadius: '45px', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)',width:'600px' }}>
             <div className=' p-3 ' style={{ background: 'linear-gradient(to right, #bda2c1, #bda2c1)', color: 'white', borderRadius: '35px', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)' }}>
               <div className="row">
                 <div className="col-md-3">
